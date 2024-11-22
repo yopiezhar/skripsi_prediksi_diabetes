@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load('D:\-BIMBINGAN\PrediksiDiabetes\model\diabetesmodelprediksi.pkl')
+model = joblib.load('diabetesmodelprediksi.pkl')
 
 # Title and description
 st.title("🩺 Diabetes Prediction App")
